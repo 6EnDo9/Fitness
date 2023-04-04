@@ -51,6 +51,8 @@ namespace FitnessClub1
                 // переход на нужное окно
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
+
+                this.Close();
             }
             else
             {

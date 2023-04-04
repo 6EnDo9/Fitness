@@ -105,15 +105,15 @@
 
                                 </Image>
 
-                                <TextBlock Text="{Binding NameService}"
-                                       FontSize="18"
-                                       Margin="5 0 0 0"/>
+                                <TextBlock Text="{Binding ServicesName}"
+                                       FontSize="20"
+                                       Margin="5 0 0 0" FontFamily="Magneto"/>
                                 <TextBlock Text="{Binding Price}"
-                                       FontSize="18"
-                                       Margin="5 0 0 0"/>
-                                <TextBlock Text="{Binding Description}"
-                                       FontSize="18"
-                                       Margin="5 0 0 0"/>
+                                       FontSize="20"
+                                       Margin="5 0 0 0" FontFamily="Magneto"/>
+                                <TextBlock Text="{Binding TypeOfTraining}"
+                                       FontSize="20"
+                                       Margin="5 0 0 0" FontFamily="Magneto"/>
 
                                 <Button x:Name="BtnEditProduct"
                                     Content="Изменить"
